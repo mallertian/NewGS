@@ -17,7 +17,7 @@ Create a conda virtual environment and intall libs
 - Install rdkit: conda install -y -c conda-forge rdkit
 - Install tensorflow : pip install tensorflow-gpu==1.15
 - Install keras: pip install keras ==2.3.1
-- Install transformers pip install transformers
+- Install transformers: pip install transformers
 ## Create data files
 ```python
 python create_data.py 
