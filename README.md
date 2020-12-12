@@ -27,7 +27,7 @@ It will create four .pt files in the data/processed folder
 ```python
 python training.py 0 0
 ```
-where the first argument is for the index of the datasets, 0/1 for 'davis' or 'kiba', respectively; the second argument is for the index of the models, 0/1/2/3 for GINConvNet, GATNet, GAT_GCN, or GCNNet
+where the first argument is for the index of the datasets, 0/1 for 'davis' or 'kiba', respectively; the second argument is for the index of the models, 0/1/2/3 for GINConvNet, GATNet, GAT_GCN, or GCNNet.
 This returns result.csv, containing the performance of the proposed models on the two datasets. The measures include rmse, mse, pearson, spearman, and ci.
 
 
